@@ -28,6 +28,8 @@ apt install --no-install-recommends \
   libeigen3-dev
 
 pip install --upgrade pip==9.0.3
+pip install --upgrade pip
+hash -d pip
 pip install -U setuptools
 
 pip install \
@@ -39,5 +41,4 @@ pip install \
   matplotlib==1.5.3 \
   scikit-image \
   pytest-xdist \
-  vispy \
   trimesh
