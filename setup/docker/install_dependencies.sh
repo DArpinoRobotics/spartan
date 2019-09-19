@@ -42,3 +42,6 @@ pip install \
   scikit-image \
   pytest-xdist \
   trimesh
+
+apt install --no-install-recommends python-dev
+pip install vispy
